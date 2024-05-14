@@ -1,10 +1,10 @@
 :root{ /*declaração de variáveis; PASSANDO O MOUSE EM CIMA DAS CORES VOCÊ CONSEGUE MUDÁ-LAS*/
-    --cor-de-fundo: #1E1E1E; 
-    --verde: #6FFF57; 
-    --branco: #FFFFFF; 
-    --botao-ativo: #3A375E; 
-    --botao-inativo: rgba(58, 55, 94, 0.5); 
-    --texto-fundo: rgba(58, 55, 94, 0.3); 
+    --cor-de-fundo: #0c97e717; 
+    --verde: #ff091d00; 
+    --branco: #faf6040a; 
+    --botao-ativo: #d6d3f800; 
+    --botao-inativo: rgba(236, 164, 179, 0); 
+    --texto-fundo: rgba(58, 55, 94, 0); 
 }
 body{ /*define estilização geral do conteúdo da página*/
     background-color: var(--cor-de-fundo); /*cor do fundo / var declara a variável criada em root*/
@@ -22,7 +22,7 @@ body{ /*define estilização geral do conteúdo da página*/
     width: 100%; /*define a largura do elemento*/
     margin: 0 auto; /*define o espaço em torno da borda do elemento e a borda da página; controla o espaço fora do elemento*/
 }
-.titulo-principal{  /*classe titulo-principal no HTML*/
+.titulo-principal{  /* A fíica */
     text-align: left; /*alinha o texto: esquerda*/
     width: 100%;
     font-size: 32px; /*define o tamanho da fonte*/
